@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+	<!-- Business TO Integration -->
+  
+  	<mapping>
+  		<class-a>com.sinensia.gedesa.business.model.Comercial</class-a>
+  		<class-b>com.sinensia.gedesa.integration.model.ComercialPL</class-b>
+  	</mapping>
+  	
+  	<mapping>
+  		<class-a>com.sinensia.gedesa.business.model.Cliente</class-a>
+  		<class-b>com.sinensia.gedesa.integration.model.ClientePL</class-b>
+  	</mapping>
+  	
+  	<mapping>
+  		<class-a>com.sinensia.gedesa.business.model.DatosContacto</class-a>
+  		<class-b>com.sinensia.gedesa.integration.model.DatosContactoPL</class-b>
+  	</mapping>
+  	
+  	<mapping>
+  		<class-a>com.sinensia.gedesa.business.model.Direccion</class-a>
+  		<class-b>com.sinensia.gedesa.integration.model.DireccionPL</class-b>
+  	</mapping>
+  	
+<!--  	
+  	<mapping>
+  		<class-a>com.sinensia.gedesa.business.model.Familia</class-a>
+  		<class-b>com.sinensia.gedesa.integration.model.FamiliaPL</class-b>
+  	</mapping>
+-->  
+ 	
+  	 <mapping>
+  		<class-a>com.sinensia.gedesa.business.model.LineaPedido</class-a>
+  		<class-b>com.sinensia.gedesa.integration.model.LineaPedidoPL</class-b>
+  	</mapping>
+  	
+  	<mapping>
+  		<class-a>com.sinensia.gedesa.business.model.Pedido</class-a>
+  		<class-b>com.sinensia.gedesa.integration.model.PedidoPL</class-b>
+  	</mapping>
+  	
+  	<mapping>
+  		<class-a>com.sinensia.gedesa.business.model.Producto</class-a>
+  		<class-b>com.sinensia.gedesa.integration.model.ProductoPL</class-b>
+  	</mapping>
+  	
+ </mappings>
